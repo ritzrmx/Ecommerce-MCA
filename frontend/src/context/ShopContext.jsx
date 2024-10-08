@@ -9,7 +9,7 @@ const ShopContextProvider = (props) => {
 
     const currency = '$';
     const delivery_fee = 10;
-    const backendUrl = "https://ecommerce-backend-67zk.onrender.com";
+    const backendUrl = "https://ecommerce-backend-67zk.onrender.com"
     const [search, setSearch] = useState('');
     const [showSearch, setShowSearch] = useState(false);
     const [cartItems, setCartItems] = useState({});
